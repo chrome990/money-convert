@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Money Convertor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Pictures/ico.png">
+
+    <script src="https://kit.fontawesome.com/edc63f5585.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="box">
+        <h1 class="title">Money Convertor</h1>
+        <div class="processes">
+            <label class="tnd-money">TND Money</label>
+            <input type="number" id="tnd" class="tnd" placeholder="Make the money amount in TND">
+            <label class="type">Choose the money</label>
+            <select id="mtype">
+                <option id="usd">USD</option>
+                <option id="euro">Euro</option>
+            </select>
+            <a><button id="submitBtn" class="btn btn--light">               
+                <span class="btn__inner">
+                <span class="btn__slide"></span>
+                <span class="btn__content" style="font-family: 'Sriracha', cursive;">Submit</span>
+                </span>
+            </button></a>
+            <h3 class="answer">Answer: <span id="result"> </span></h3>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
